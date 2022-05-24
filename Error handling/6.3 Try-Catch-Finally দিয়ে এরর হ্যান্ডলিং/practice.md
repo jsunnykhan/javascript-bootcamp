@@ -1,15 +1,21 @@
-- **Practice**
+- **Question 1**
 
 - finally কি সবসময়ই কল হয় ?
+- **Answer**
   > হ্যা।
-
+- **Question 2**
 - শুধু কি try লেখা যায় catch/finally ছাড়া ?
+
+- **Answer**
   > না try এরসাথে অবশ্যই catch অথবা finally লিখতে হবে ।
-- খালি 
+
+- **Question 3**
 
 - একটি asynchronous ফাংশনে API কল করে ,যদি status Code ২০০ হয় তবে ডাটা কনসোলে দেখাতে হবে এবং তা try catch দিয়ে এরর হ্যান্ডেলিং করতে হবে
   > API Endpoint : https://jsonplaceholder.typicode.com/posts
 
+
+- **Answer**
 ```js
 async function getData() {
   try {

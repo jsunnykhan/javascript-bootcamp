@@ -1,11 +1,12 @@
-- **Practice**
-
-  - একটি ফাংশন প্যারামিটার হিসেবে একটি integer নেয় , এবং
+- **Question 1**
+ একটি ফাংশন প্যারামিটার হিসেবে একটি integer নেয় , এবং
     - যদি খালি প্যারামিটার হয় তবে ইরর দিবে **is Empty**
     - যদি Not a Number হয় তবে ইরর দিবে **not a number** ,
     - যদি ১০ এর থেকে বড় হয় তবে ইরর দিবে **too high**
     - যদি ৫ এর নিচে হয় তবে এরর দিবে **too low**
     - যদি ৫-১০ এর মধ্যে হয় তবে return দিবে **Perfect match**
+
+- **Answer**
 
   ```js
   function params(x) {
@@ -23,8 +24,10 @@
   }
   ```
 
-  - একটি API কল করতে হবে যদি success হয় তবে success ম্যাসেজ দেখাতে হবে আর যদি success না হয় তবে **Failed to load data** দেখাতে হবে এবং যদি success হয় কিন্তু কোন ডাটা না থাকে তবে **Empty Data** দেখাতে হবে।
+- **Question 2**
+ একটি API কল করতে হবে যদি success হয় তবে success ম্যাসেজ দেখাতে হবে আর যদি success না হয় তবে **Failed to load data** দেখাতে হবে এবং যদি success হয় কিন্তু কোন ডাটা না থাকে তবে **Empty Data** দেখাতে হবে।
 
+- **Answer**
   ```js
   async function getData() {
     try {
