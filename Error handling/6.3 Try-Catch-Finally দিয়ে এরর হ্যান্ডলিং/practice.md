@@ -1,8 +1,10 @@
 - **Question 1**
+
  finally কি সবসময়ই কল হয় ?
 - **Answer**
   > হ্যা।
 - **Question 2**
+
  শুধু কি try লেখা যায় catch/finally ছাড়া ?
 
 - **Answer**
