@@ -1,5 +1,5 @@
 ### Examples
-
+- **Example 1**
 ```js
 function add(a, b) {
   return a + b;
@@ -20,6 +20,7 @@ console.log(addition(3, 2)); // 5
 
 উপরের **add** ফাংশনটি দুইটি সংখ্যা যোগ করে যোগফল return দেয়, কিন্তু যদি দুইটি সংখ্যার পরিবর্তে দুইটি স্ট্রিং প্যারামিটার হিসেবে পাস করি তবে তা দুইটি স্ট্রিংকে concat করে ৩২ রেজাল্ট দেয়। সেক্ষেত্রে আময়াদের চেক করে নিতে হবে প্যারামিটার হিসেবে সে দুটি ভ্যালু পাঠানো হয়েছে তা সংখ্যা কিনা। যদি সংখ্যা না হয় তবে এরর ম্যাসেস দিবে।
 
+- **Example 2**
 ```js
 function convertToInt(num) {
   const result = Number.parseInt(num);
@@ -37,6 +38,7 @@ console.log(convertToInt("sdsadasd45.54434sd")); // Please provide a valid value
 
 আবার যদি কোন ভ্যালুকে ইন্টিজারে কনভার্ট করতে চাই তাহলে আমরা সেই ভ্যালুটি valid/invalid কিনা তা if/else এর মাধ্যমে চেক করতে পারি।
 
+- **Example 3**
 ```js
 async function getData() {
   const response = await fetch("https://jsonplaceholder.typicode.com/todos/1");
@@ -53,6 +55,8 @@ getData();
 ```
 
 উপরের **getData()** ফাংশনটিতে একটি asynchronous মেথড কল করা হয়েছে এবং সার্ভার থেকে ডাটা নিয়ে আসতেও পারে নাও আসতে পার ,এক্ষেত্রে আমরা if/else দিয়ে চেক করে error হ্যান্ডিলিং করতে পারি।
+
+- **Example 4**
 
 ```js
 async function getData() {
