@@ -1,5 +1,5 @@
 - **Practice 1**
-  - ধরুণ আমাদের একটি constant Default value আছে।
+   ধরুণ আমাদের একটি constant Default value আছে।
   ```js
   const default = 10;
   ```

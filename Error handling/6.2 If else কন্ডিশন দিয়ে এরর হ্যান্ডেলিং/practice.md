@@ -1,6 +1,6 @@
 - **Question 1**
 
-    - একটি ফাংশন যা দুইটি পজিটিভ সংখ্যা প্যারামিটার হিসেবে নেয় এবং তাদের যোগফল return করে।
+  একটি ফাংশন যা দুইটি পজিটিভ সংখ্যা প্যারামিটার হিসেবে নেয় এবং তাদের যোগফল return করে।
 
 - **Answer**
 ```js
@@ -20,9 +20,8 @@ console.log(add(-1, 2));
 console.log(add("a", 2));
 console.log(add(3, 2));
 ```
-
 - **Question 2**
-- একটি asynchronous ফাংশনে API কল করে ,যদি status Code ২০০ হয় তবে ডাটা কনসোলে দেখান
+ একটি asynchronous ফাংশনে API কল করে ,যদি status Code ২০০ হয় তবে ডাটা কনসোলে দেখান
   > API Endpoint : https://jsonplaceholder.typicode.com/posts
 
 - **Answer**
