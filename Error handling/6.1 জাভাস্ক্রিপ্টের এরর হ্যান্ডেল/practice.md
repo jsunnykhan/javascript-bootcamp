@@ -7,7 +7,7 @@
 
 - **Answer**
     > default JavaScript এর একটি রিজার্ভ ওয়ার্ড।
-- **Practice 1**
+- **Practice 2**
    ```js
    JSON.parse({}); // valid or not ?
    ```
